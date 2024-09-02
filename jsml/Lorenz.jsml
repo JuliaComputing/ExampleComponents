@@ -1,0 +1,12 @@
+component Lorenz
+  variable x
+  variable y
+  variable z
+  parameter a=10.0
+  parameter b=28.0
+  parameter c=8/3
+relations
+    der(x) = a * (y - x)
+    der(y) = x * (b - z) - y
+    der(z) = x * y - c * z
+end
