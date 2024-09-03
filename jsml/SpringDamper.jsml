@@ -1,0 +1,12 @@
+component SpringDamper
+  parameter k::Real = 1M
+  parameter F::Real = 100
+  parameter d::Real = 10
+  variable x::Real
+  variable x_dot::Real
+  variable x_ddot::Real
+relations
+  der(x) = x_dot
+  der(x_dot) = x_ddot
+  F = d*x_dot+k*x
+end

@@ -1,34 +1,24 @@
 name = "ExampleComponents"
-uuid = "45d18cd6-0079-4ea9-861b-5fdcdb8e21e3"
-authors = ["JuliaSim User"]
-version = "1.0.0"
+uuid = "958d3fae-764e-4256-82ad-e42c1b7b8a65"
+authors = [" <>"]
+version = "0.1.0"
 
 [deps]
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-DiffEqDevTools = "f3b72e0c-5b89-59e1-b016-84e28bfd966d"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 DynamicQuantities = "06fc5a27-2a28-4c7c-a15d-362465fb6821"
-JuliaHub = "bc7fa6ce-b75e-4d60-89ad-56c957190b6e"
 JuliaSimBase = "9c9cc66b-a38b-4ec4-8b59-87b54775939f"
-JuliaSimModelOptimizer = "e76a656c-db09-4a9a-8f5e-6a4d9ca4a950"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
-CSV = "0.10.14"
-DiffEqDevTools = "2.44.3"
-DifferentialEquations = "7.13"
-DynamicQuantities = "0.13"
-JuliaHub = "0.1.10"
-JuliaSimBase = "1.1.1"
-JuliaSimModelOptimizer = "9.2.0"
-ModelingToolkit = "9.15"
-OrdinaryDiffEq = "6.82"
-PrecompileTools = "1.2.1"
-RuntimeGeneratedFunctions = "0.5"
-Test = "1"
+DynamicQuantities = "=0.13.1"
+JuliaSimBase = "=1.1"
+ModelingToolkit = "=9.22.0"
+OrdinaryDiffEq = "=6.83.0"
+PrecompileTools = "=1.2.1"
+RuntimeGeneratedFunctions = "=0.5.12"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
