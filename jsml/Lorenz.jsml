@@ -2,11 +2,11 @@ component Lorenz
   variable x::Real
   variable y::Real
   variable z::Real
-  parameter a::Real=10.0
-  parameter b::Real=28.0
-  parameter c::Real=8/3
+  parameter a::Real = 10
+  parameter b::Real = 28
+  parameter c::Real = 8/3
 relations
-    der(x) = a * (y - x)
-    der(y) = x * (b - z) - y
-    der(z) = x * y - c * z
+  der(x) = a*(y-x)
+  der(y) = x*(b-z)-y
+  der(z) = x*y-c*z
 end
