@@ -4,3 +4,5 @@
 ### If you edit this code it is likely to get overwritten.
 ### Instead, update the JSML source code and regenerate this file
 
+
+include("Lorenz_experiment.jl")

@@ -26,3 +26,5 @@ end
   s(t), []
   f(t), [connect = Flow]
 end
+
+include("Lorenz_definition.jl")
