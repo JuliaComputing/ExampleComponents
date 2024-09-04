@@ -1,0 +1,12 @@
+component ThermalConduction
+  a = Node()
+  b = Node()
+  parameter h::CoefficientOfHeatTransfer
+  parameter A::Area
+relations
+  # Sign convention, Q is positive when heat is flowing into the component
+  # So, `a.Q` is positive when the temperature at `a` is higher than at `b`.
+  a.Q = h*A*(a.T-b.T)
+  # Conservation of energy (what flows in, must flow out)
+  a.Q+b.Q = 0
+end

@@ -1,0 +1,4 @@
+analysis SimpleTransient
+  extends Transient(integrator="auto", abstol=10m, reltol=1m, start=0, stop=10)
+  model = TestModel()
+end

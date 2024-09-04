@@ -1,0 +1,6 @@
+component ThermalReservoir
+  n = Node()
+  parameter T::Temperature
+relations
+  n.T = T
+end

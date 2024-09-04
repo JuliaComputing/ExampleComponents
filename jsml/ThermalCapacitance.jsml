@@ -1,0 +1,12 @@
+component ThermalCapacitance
+  n = Node()
+  parameter Cp::SpecificHeatCapacity
+  parameter T0::Temperature
+relations
+  # Conservation of energy
+  # Sign convention: n.Q is positive when heat is flowing into the component
+  # Therefore der(n.T) is positive in that case.
+  Cp*der(n.T) = n.Q
+  # Set initial temperature to `T0`
+  initial n.T = T0
+end
