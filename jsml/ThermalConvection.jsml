@@ -1,4 +1,4 @@
-component ThermalConduction
+component ThermalConvection
   a = Node()
   b = Node()
   parameter h::CoefficientOfHeatTransfer

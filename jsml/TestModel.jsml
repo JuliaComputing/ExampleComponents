@@ -1,6 +1,6 @@
 component TestModel
   cap = ThermalCapacitance(Cp=1, T0=300)
-  cond = ThermalConduction(A=2, h=0.1)
+  cond = ThermalConvection(A=2, h=0.1)
   amb = ThermalReservoir(T=273)
 relations
   connect(cap.n, cond.a)
