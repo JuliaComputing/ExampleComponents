@@ -8,5 +8,5 @@ relations
   # Therefore der(n.T) is positive in that case.
   Cp*der(n.T) = n.Q
   # Set initial temperature to `T0`
-  initial n.T = T0
+  initial der(n.T) = 0
 end
